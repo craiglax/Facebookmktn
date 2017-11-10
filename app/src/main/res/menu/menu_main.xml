@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.lesson.craig.facebooktips.MainActivity">
+    <item
+        android:id="@+id/consultants"
+        android:orderInCategory="100"
+        android:title="Consultants"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/more"
+        android:orderInCategory="101"
+        android:title="More"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/next"
+        android:orderInCategory="101"
+        android:title="NEXT"
+        app:showAsAction="always"/>
+</menu>
+
